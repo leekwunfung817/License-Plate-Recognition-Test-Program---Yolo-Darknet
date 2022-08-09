@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="darknet">
+      <UniqueIdentifier>{6306e997-4435-49b7-b80a-096850e8dbf6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CPosLicense.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPosLicenseDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="darknet\stb\include\stb_image.h">
+      <Filter>darknet</Filter>
+    </ClInclude>
+    <ClInclude Include="darknet\stb\include\stb_image_write.h">
+      <Filter>darknet</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CPosLicense.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPosLicenseDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\activation_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\activations.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\art.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\avgpool_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\batchnorm_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\blas.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\box.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\captcha.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\cifar.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\classifier.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\coco.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\col2im.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\compare.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\connected_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\conv_lstm_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\convolutional_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\cost_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\cpu_gemm.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\crnn_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\crop_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\dark_cuda.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\darknet.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\data.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\deconvolutional_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\demo.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\detection_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\detector.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\dice.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\dropout_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\gaussian_yolo_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\gemm.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\getopt.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\gettimeofday.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\go.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\gru_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\im2col.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\image.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\list.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\local_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\lstm_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\matrix.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\maxpool_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\network.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\nightmare.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\normalization_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\option_list.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\parser.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\region_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\reorg_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\reorg_old_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\rnn.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\rnn_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\rnn_vid.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\route_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\sam_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\scale_channels_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\shortcut_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\softmax_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\super.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\swag.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\tag.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\tree.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\upsample_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\utils.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\voxel.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\writing.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\yolo.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\yolo_layer.c">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\http_stream.cpp">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\image_opencv.cpp">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\yolo_v2_class.cpp">
+      <Filter>darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="darknet\src\license_detect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CPosLicense.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\CPosLicense.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\CPosLicense.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+Include头文件设置
+
+$(CudaToolkitIncludeDir)
+..\..\cudnn\include
+
+
+C/C++ Preprocessor, C++预编译设置
+
+CUDNN_HALF
+CUDNN
+GPU

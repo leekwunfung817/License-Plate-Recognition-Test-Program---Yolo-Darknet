@@ -1,0 +1,14 @@
+[
+{
+ "frame_id":1, 
+ "filename":"E:\ARM\ARM_STM32\code\EcolyzerM4\Octopus\dark_net\CPosLicense1.0.0\Release\input\15_1_i_h__20191110174238_03676101_JJ6682_100.jpg", 
+ "objects": [ 
+  {"class_id":18, "name":"J", "relative_coordinates":{"center_x":0.313076, "center_y":0.586726, "width":0.164444, "height":0.550481}, "confidence":0.975951}, 
+  {"class_id":18, "name":"J", "relative_coordinates":{"center_x":0.420040, "center_y":0.562822, "width":0.154869, "height":0.481936}, "confidence":0.672013}, 
+  {"class_id":8, "name":"8", "relative_coordinates":{"center_x":0.763580, "center_y":0.428031, "width":0.093243, "height":0.478490}, "confidence":0.985867}, 
+  {"class_id":6, "name":"6", "relative_coordinates":{"center_x":0.576623, "center_y":0.512752, "width":0.116687, "height":0.467695}, "confidence":0.999933}, 
+  {"class_id":6, "name":"6", "relative_coordinates":{"center_x":0.675847, "center_y":0.465247, "width":0.102485, "height":0.492740}, "confidence":0.999951}, 
+  {"class_id":2, "name":"2", "relative_coordinates":{"center_x":0.847207, "center_y":0.390069, "width":0.094138, "height":0.465802}, "confidence":0.999357}
+ ] 
+}
+]
